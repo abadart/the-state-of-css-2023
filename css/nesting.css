@@ -1,0 +1,29 @@
+.nesting {
+    .fancyHeader {
+        color: var(--secondary-clr);
+    }
+
+    .default {
+        color: var(--primary-clr);
+    }
+
+    .btn {
+        background-color: var(--secondary-clr);
+        color: var(--primary-clr);
+
+        &:hover {
+            background-color: var(--primary-clr);
+            color: var(--primary-clr-ultra-light);
+        }
+    }
+
+    & h2 {
+        font-size: 3rem;
+
+        @media (max-width: 760px) {
+            & {
+                font-size: 2rem;
+            }
+        }
+    }
+}

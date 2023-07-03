@@ -1,0 +1,33 @@
+.card {
+    --txt-color: var(--primary-clr-ultra-light);
+    background-color: var(--primary-clr);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: var(--space-l);
+    
+    & h2 {
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+}
+
+.with-img {
+    padding: 0;
+}
+
+.with-img .card-img {
+    order: 0;
+    line-height: 0;
+}
+
+.with-img .card-txt {
+    order: 1;
+    padding: var(--space-l);
+}
+
+@media screen and (min-width: 400px) {
+    /* .card {
+        flex-direction: row;
+    } */
+}

@@ -1,0 +1,22 @@
+:root {
+    --primary-clr: rgb(24, 64, 73);
+    --primary-clr-light: rgba(34, 85, 96, 0.4);
+    --primary-clr-ultra-light: rgb(223, 230, 234);
+    --secondary-clr: rgb(229, 103, 54);
+
+    --space: 1rem;
+    --space-s: calc(var(--space) / 2);
+    --space-m: calc(var(--space) * 1.5);
+    --space-l: calc(var(--space) * 2);
+    --space-xl: calc(var(--space) * 2.5);
+
+    --box-shadow: 0 0 1em rgba(0,0,0, .20);
+
+    --card-background-clr: var(--primary-clr);
+    --card-header-clr: var(--primary-clr-ultra-light);
+    --card-txt-clr: var(--primary-clr-ultra-light);
+    --card-btn-background-clr: var(--secondary-clr);
+    --card-btn-txt-clr: var(--primary-clr);
+
+    --txt-color: var(--primary-clr);
+}
