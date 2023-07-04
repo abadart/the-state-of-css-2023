@@ -1,8 +1,12 @@
 .box {
     background-color: var(--secondary-clr);
     position: fixed;
-    left: 0;
+    left: 100px;
     top: 0;
-    width: 100vw;
-    height: 100dvh;
+    width: 200px;
+    height: 99svh;
 }
+
+/* body {
+    height: 8000px;
+} */
